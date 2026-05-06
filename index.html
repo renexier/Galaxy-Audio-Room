@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="
+width=device-width,
+initial-scale=1.0,
+maximum-scale=1.0,
+user-scalable=no
+">
+
+<title>Galaxy Audio Room X</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<canvas id="bg"></canvas>
+
+<div class="overlay"></div>
+
+<div class="top-left-credit">
+
+    <div class="creator">
+        MAYANK RANJAN
+    </div>
+
+    <div class="alias">
+        RENEXIER
+    </div>
+
+</div>
+
+<div class="topbar">
+
+    <div class="logo">
+        AUDIO ROOM X
+    </div>
+
+    <div class="controls">
+
+        <button id="micBtn">
+            MIC OFF
+        </button>
+
+        <button id="themeBtn">
+            CYBERPUNK
+        </button>
+
+        <button id="infoBtn">
+            INFO
+        </button>
+
+    </div>
+
+</div>
+
+<div class="room-wrapper">
+
+    <div class="visualizer" id="visualizer"></div>
+
+    <div class="room" id="room">
+
+        <div class="floor-glow" id="floorGlow"></div>
+
+        <div class="speaker">
+
+            <div class="speaker-ring"></div>
+
+            <div class="speaker-ring small"></div>
+
+        </div>
+
+        <div class="center-display">
+
+            <div class="title">
+                REACTIVE ROOM
+            </div>
+
+            <div class="sub">
+                GALAXY AUDIO ENGINE
+            </div>
+
+        </div>
+
+        <div class="speaker">
+
+            <div class="speaker-ring"></div>
+
+            <div class="speaker-ring small"></div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="info-panel hidden" id="infoPanel">
+
+    <div class="panel-content">
+
+        <h1>
+            HOW THIS WORKS
+        </h1>
+
+        <p>
+            Hybrid UI + Three.js galaxy environment
+            with realtime microphone audio analysis.
+        </p>
+
+        <button id="closeBtn">
+            CLOSE
+        </button>
+
+    </div>
+
+</div>
+
+<script
+src="
+https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js
+">
+</script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
